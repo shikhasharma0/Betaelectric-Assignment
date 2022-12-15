@@ -15,7 +15,15 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+        <title>Search Bar</title>
+        <body>
+            <div className = "container">
+                <form>
+                    <input type={text} placeholder= "Search any favorite packages"></input>
+                    <button type ="Submit"> Search </button>
+                </form>
+            </div>
+        </body>
         </a>
       </header>
     </div>
